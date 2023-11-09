@@ -9,7 +9,7 @@ from collections import deque
 from discord.ext import commands
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
-openai.api_base = "https://api.shuttle.rip/v1"
+openai.api_base = "Your provider API base(optional if you use OpenAI api)"
 
 config_path = os.path.join(script_dir, 'config.json')
 with open(config_path) as config_file:
